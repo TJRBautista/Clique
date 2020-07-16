@@ -38,7 +38,6 @@ void louvain (Graph * const G) {
 			bool isAdded = false;
 			isAdded = addNode(curNode, newClusterID);
 			assert(isAdded);
-			displayClusterSet(clusterSet, curG->numNodes);
 		}
 	} while (false);
 	
